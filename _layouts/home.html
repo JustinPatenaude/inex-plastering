@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<div class="home-banner__wrapper">
+  <div class="container">
+    <div class="grid">
+      <div class="col-12">
+
+        <div class="home-banner__slider">
+          {% for slide in page.slider %}
+          <div class="home-banner__slide">
+            <div class="home-banner__content">
+              <div class="home-banner__content-top cf">
+                <div class="home-banner__content-type">
+                  {{ slide.type }}
+                </div>
+                <div class="home-banner__content-arrow home-banner__content-left">
+                  <i class="fal fa-chevron-left"></i>
+                </div>
+                <div class="home-banner__content-arrow home-banner__content-right">
+                  <i class="fal fa-chevron-right"></i>
+                </div>
+              </div>
+              <div class="home-banner__content-bottom">
+                {{ slide.title }}
+              </div>
+            </div><!-- /home-banner__content -->
+            <img src="{{ slide.image | relative_url }}" alt="{{ slide.title }}" />
+          </div><!-- /home-banner__slide -->
+          {% endfor %}
+        </div><!-- /home-banner__slider -->
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="home-blocks__wrapper">
+  <div class="container">
+    <div class="grid">
+
+      <div class="col-4">
+        <a class="home-block" href="#">
+          <div class="home-block__content">
+            <img class="home-block__content-icon" src="{{ '/assets/images/icon-commercial.svg' | relative_url }}" alt="Commercial" />
+            <h2 class="home-block__content-title">Commercial</h2>
+          </div>
+          <img class="home-block__bg" src="{{ '/assets/images/bg-commercial.jpg' | relative_url }}" alt="Commercial" />
+        </a>
+      </div>
+
+      <div class="col-4">
+        <a class="home-block" href="#">
+          <div class="home-block__content">
+            <img class="home-block__content-icon" src="{{ '/assets/images/icon-residential.svg' | relative_url }}" alt="Residential" />
+            <h2 class="home-block__content-title">Residential</h2>
+          </div>
+          <img class="home-block__bg" src="{{ '/assets/images/bg-residential.jpg' | relative_url }}" alt="Residential" />
+        </a>
+      </div>
+
+      <div class="col-4">
+        <a class="home-block" href="#">
+          <div class="home-block__content">
+            <img class="home-block__content-icon" src="{{ '/assets/images/icon-custom.svg' | relative_url }}" alt="Custom" />
+            <h2 class="home-block__content-title">Custom</h2>
+          </div>
+          <img class="home-block__bg" src="{{ '/assets/images/bg-custom.jpg' | relative_url }}" alt="Custom" />
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
