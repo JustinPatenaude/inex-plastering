@@ -4,7 +4,9 @@ $(document).ready(function(){
     dots: false,
     arrows: false,
     infinite: true,
-    speed: 300,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    speed: 600,
     slidesToShow: 1,
     fade: true
   });

@@ -2,6 +2,13 @@
 layout: default
 ---
 
-<div>
-  {page.title}
+<div class="container">
+  <div class="grid-center">
+    <div class="col-8">
+      <h1 class="page-title title">{{ page.title }}</h1>
+    </div>
+    <div class="col-8 rte">
+      {{ content }}
+    </div>
+  </div>
 </div>
