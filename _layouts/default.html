@@ -5,13 +5,19 @@
 
   <body>
 
-    {% include header.html %}
+    <div class="wrapper">
+      <div class="overlay"></div>
 
-    <main class="content" aria-label="Content">
-      {{ content }}
-    </main>
+      {% include header.html %}
 
-    {% include footer.html %}
+      <main class="content" aria-label="Content">
+        {{ content }}
+      </main>
+
+      {% include footer.html %}
+
+    </div>
+    {% include mobile-menu.html %}
 
   </body>
 

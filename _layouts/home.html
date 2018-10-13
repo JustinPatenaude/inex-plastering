@@ -26,7 +26,7 @@ layout: default
                 {{ slide.title }}
               </div>
             </div><!-- /home-banner__content -->
-            <img src="{{ slide.image | relative_url }}" alt="{{ slide.title }}" />
+            <img src="{{ slide.image | relative_url }}" title="{{ slide.title }}" />
           </div><!-- /home-banner__slide -->
           {% endfor %}
         </div><!-- /home-banner__slider -->
@@ -43,30 +43,30 @@ layout: default
       <div class="col-4">
         <a class="home-block" href="/commercial/">
           <div class="home-block__content">
-            <img class="home-block__content-icon" src="{{ '/assets/images/icon-commercial.svg' | relative_url }}" alt="Commercial" />
+            <img class="home-block__content-icon" src="{{ '/assets/images/icon-commercial.svg' | relative_url }}" title="Commercial" />
             <h2 class="home-block__content-title">Commercial</h2>
           </div>
-          <img class="home-block__bg" src="{{ '/assets/images/bg-commercial.jpg' | relative_url }}" alt="Commercial" />
+          <img class="home-block__bg" src="{{ '/assets/images/bg-commercial.jpg' | relative_url }}" title="Commercial" />
         </a>
       </div>
 
       <div class="col-4">
         <a class="home-block" href="/residential/">
           <div class="home-block__content">
-            <img class="home-block__content-icon" src="{{ '/assets/images/icon-residential.svg' | relative_url }}" alt="Residential" />
+            <img class="home-block__content-icon" src="{{ '/assets/images/icon-residential.svg' | relative_url }}" title="Residential" />
             <h2 class="home-block__content-title">Residential</h2>
           </div>
-          <img class="home-block__bg" src="{{ '/assets/images/bg-residential.jpg' | relative_url }}" alt="Residential" />
+          <img class="home-block__bg" src="{{ '/assets/images/bg-residential.jpg' | relative_url }}" title="Residential" />
         </a>
       </div>
 
       <div class="col-4">
         <a class="home-block" href="/custom/">
           <div class="home-block__content">
-            <img class="home-block__content-icon" src="{{ '/assets/images/icon-custom.svg' | relative_url }}" alt="Custom" />
+            <img class="home-block__content-icon" src="{{ '/assets/images/icon-custom.svg' | relative_url }}" title="Custom" />
             <h2 class="home-block__content-title">Custom</h2>
           </div>
-          <img class="home-block__bg" src="{{ '/assets/images/bg-custom.jpg' | relative_url }}" alt="Custom" />
+          <img class="home-block__bg" src="{{ '/assets/images/bg-custom.jpg' | relative_url }}" title="Custom" />
         </a>
       </div>
 
@@ -82,17 +82,22 @@ layout: default
       </div>
       <div class="col-3">
         <a href="https://www.stopanel.com/" target="_blank" class="home-supplier">
-          <img class="home-supplier__logo" src="{{ '/assets/images/supplier-stopanel.png' | relative_url }}" alt="Stop Panel Logo" />
+          <img class="home-supplier__logo" src="{{ '/assets/images/supplier-stocorp.jpg' | relative_url }}" title="Stop Corp Logo" />
         </a>
       </div>
       <div class="col-3">
         <div class="home-supplier">
-          <img class="home-supplier__logo" src="{{ '/assets/images/supplier-kenroc.png' | relative_url }}" alt="Kenroc Logo" />
+          <img class="home-supplier__logo" src="{{ '/assets/images/supplier-kenroc.png' | relative_url }}" title="Kenroc Logo" />
         </div>
       </div>
       <div class="col-3">
         <div class="home-supplier">
-          <img class="home-supplier__logo" src="{{ '/assets/images/supplier-wmdyck.png' | relative_url }}" alt="WM Dyck & Sons Logo" />
+          <img class="home-supplier__logo" src="{{ '/assets/images/supplier-wmdyck.png' | relative_url }}" title="WM Dyck & Sons Logo" />
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="home-supplier">
+          <img class="home-supplier__logo" src="{{ '/assets/images/supplier-brockwhite.png' | relative_url }}" title="Brock White Construction Materials Logo" />
         </div>
       </div>
     </div>

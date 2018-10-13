@@ -383,24 +383,24 @@ html.lte-ie9 .col, html.lte-ie9 [class*="col-"] {
   @include hideShow(md);
 	[class*="sm-show"]{ display: none;}
 	[class*="xs-show"]{ display: none;}
-	.text-left-md { text-align: left;}
-	.text-center-md  { text-align: center;}
-  .text-right-md  { text-align: right;}
+	.md-text-left { text-align: left;}
+	.md-text-center  { text-align: center;}
+  .md-text-right  { text-align: right;}
   .padding-md {padding-bottom: 20px;}
 }
 @media #{$gl-sm}{
   @include hideShow(sm);
 	[class*="xs-show"]{ display: none;}
-	.text-left-sm { text-align: left;}
-	.text-center-sm  { text-align: center;}
-  .text-right-sm  { text-align: right;}
+	.sm-text-left { text-align: left;}
+	.sm-text-center  { text-align: center;}
+  .sm-text-right  { text-align: right;}
   .padding-sm {padding-bottom: 20px;}
 }
 @media #{$gl-xs}{
   @include hideShow(xs);
-	.text-left-xs { text-align: left;}
-	.text-center-xs  { text-align: center;}
-  .text-right-xs  { text-align: right;}
+	.xs-text-left { text-align: left;}
+	.xs-text-center  { text-align: center;}
+  .xs-text-right  { text-align: right;}
   .padding-xs {padding-bottom: 20px;}
 }
 

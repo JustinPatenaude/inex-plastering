@@ -14,6 +14,6 @@ slider:
   title: Boston Pizza
   image: "/assets/images/slide-03.jpg"
 - type: Residential
-  title: 880 Rathgard
+  title: 880 Rathgar
   image: "/assets/images/slide-04.jpg"
 ---

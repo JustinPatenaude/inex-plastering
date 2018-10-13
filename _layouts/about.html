@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="page__wrapper">
+  <div class="container">
+    <div class="grid-center">
+      <div class="col-10_md-12 margin-30">
+        <h1 class="title">{{ page.title }}</h1>
+      </div>
+    </div>
+
+    <div class="grid-center">
+      <div class="col-10_md-12 margin-30">
+        <h3 class="sub-title">{{ page.section_one_title }}</h3>
+        <p>{{ page.section_one_content }}</p>
+      </div>
+
+      <div class="col-10_md-12 margin-30">
+        <img class="img-contained bordered" src="{{ page.image | relative_url }}" title="An Inex Plastering truck in front of a sun rise." />
+      </div>
+
+      <div class="col-10_md-12 margin-30">
+        <div class="grid">
+
+          <div class="col-6">
+            <h3 class="sub-title">{{ page.section_two_title }}</h3>
+            <p class="margin-30">{{ page.section_two_content }}</p>
+            <h3 class="sub-title">{{ page.section_three_title }}</h3>
+            <p>{{ page.section_three_content }}</p>
+          </div>
+          <div class="col-6">
+            <h3 class="sub-title">{{ page.section_four_title }}</h3>
+            <h4 class="small-title">{{ page.section_four_sub_title_one }}</h4>
+            <p class="margin-20">{{ page.section_four_content_one }}</p>
+            <h4 class="small-title">{{ page.section_four_sub_title_two }}</h4>
+            <p class="margin-20">{{ page.section_four_content_two }}</p>
+            <h4 class="small-title">{{ page.section_four_sub_title_three }}</h4>
+            <p>{{ page.section_four_content_three }}</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

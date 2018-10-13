@@ -1,0 +1,152 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  <div class="grid-center">
+    <div class="col-10_md-12 margin-30">
+      <h1 class="title">{{ page.title }}</h1>
+    </div>
+  </div>
+
+  <div class="grid-center">
+    <div class="col-10_md-12 margin-30 rte">
+      {{ content }}
+    </div>
+    <div class="col-10_md-12 margin-30">
+      <form action="https://mailthis.to/jpat92" method="POST" encType="multipart/form-data">
+
+        <div class="grid">
+          <div class="col-8">
+            <h2 class="sub-title">Contact information</h2>
+          </div>
+        </div>
+        <div class="grid margin-20">
+          <div class="col-4">
+            <label class="label" for="inex_first-name">First name</label>
+            <input class="input" type="text" name="inex_first-name" placeholder="John">
+          </div>
+          <div class="col-4">
+            <label class="label" for="inex_last-name">First name</label>
+            <input class="input" type="text" name="inex_last-name" placeholder="Smith">
+          </div>
+        </div>
+        <div class="grid margin-20">
+          <div class="col-4">
+            <label class="label" for="inex_email">Email address</label>
+            <input class="input" type="text" name="inex_email" placeholder="john.smith@example.com">
+          </div>
+          <div class="col-4">
+            <label class="label" for="inex_phone">Phone number</label>
+            <input class="input" type="text" name="inex_phone" placeholder="204-999-9999">
+          </div>
+        </div>
+        <div class="grid margin-20">
+          <div class="col-4">
+            <label class="label" for="inex_address-one">Address 1</label>
+            <input class="input" type="text" name="inex_address-one" placeholder="123 Street name">
+          </div>
+          <div class="col-4">
+            <label class="label" for="inex_address-two">Address 2</label>
+            <input class="input" type="text" name="inex_address-two" placeholder="Unit 001">
+          </div>
+        </div>
+        <div class="grid margin-20">
+          <div class="col-4">
+            <label class="label" for="inex_city">City</label>
+            <input class="input" type="text" name="inex_city" placeholder="Winnipeg">
+          </div>
+          <div class="col-4">
+            <label class="label" for="inex_province">Province</label>
+            <input class="input" type="text" name="inex_province" placeholder="Manitoba">
+          </div>
+        </div>
+        <div class="grid margin-20">
+          <div class="col-4">
+            <label class="label" for="inex_postal-code">Postal Code</label>
+            <input class="input" type="text" name="inex_postal-code" placeholder="A1B 2C3">
+          </div>
+        </div>
+        <div class="grid margin-20">
+          <div class="col-8">
+            <h2 class="sub-title">Education</h2>
+            <p>For each section, please include the name of the school and program as well as the year(s) you attended. Please also indicate whether or not you graduated, and any relevant experience earned.</p>
+          </div>
+        </div>
+        <div class="grid margin-20">
+          <div class="col-4">
+            <label class="label" for="inex_high-school">High School</label>
+            <textarea class="input textarea" name="inex_high-school"></textarea>
+          </div>
+          <div class="col-4">
+            <label class="label" for="inex_post-secondary">Post-Secondary</label>
+            <textarea class="input textarea" name="inex_post-secondary"></textarea>
+          </div>
+        </div>
+        <div class="grid margin-20">
+          <div class="col-8">
+            <h2 class="sub-title">Job Experience</h2>
+            <p>For each company, please include the company name and address, as well as the name of your supervisor at the time. Briefly describe your position, start and end dates, and your reason for leaving.</p>
+          </div>
+        </div>
+        <div class="grid margin-20">
+          <div class="col-4">
+            <label class="label" for="inex_company-one">Company 1</label>
+            <textarea class="input textarea" name="inex_company-one"></textarea>
+          </div>
+          <div class="col-4">
+            <label class="label" for="inex_company-two">Company 2</label>
+            <textarea class="input textarea" name="inex_company-two"></textarea>
+          </div>
+        </div>
+        <div class="grid margin-20">
+          <div class="col-8">
+            <h2 class="sub-title">Other Information</h2>
+            <p>Are you willing to re-locate if necessary, or travel for work? What other hobbies or interests do you have?</p>
+          </div>
+        </div>
+        <div class="grid margin-20">
+          <div class="col-4">
+            <label class="label" for="inex_other">Other</label>
+            <textarea class="input textarea" name="inex_other"></textarea>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="col-8">
+            <h2 class="sub-title">References</h2>
+          </div>
+        </div>
+        <div class="grid margin-20">
+          <div class="col-4">
+            <label class="label" for="inex_reference-name-one">Name</label>
+            <input class="input" type="text" name="inex_reference-name-one">
+          </div>
+          <div class="col-4">
+            <label class="label" for="inex_reference-phone-one">Phone Number</label>
+            <input class="input" type="text" name="inex_reference-phone-one">
+          </div>
+        </div>
+        <div class="grid margin-20">
+          <div class="col-4">
+            <label class="label" for="inex_reference-name-two">Name</label>
+            <input class="input" type="text" name="inex_reference-name-two">
+          </div>
+          <div class="col-4">
+            <label class="label" for="inex_reference-phone-two">Phone Number</label>
+            <input class="input" type="text" name="inex_reference-phone-two">
+          </div>
+        </div>
+        <div class="grid margin-20">
+          <div class="col-6">
+            <input type="hidden" name="_honeypot" value="">
+            <input type="hidden" name="_subject" value="Jobs submission from inexplastering.com">
+            <input class="btn" type="submit" value="Send">
+          </div>
+        </div>
+        
+      </form>
+    </div>
+  </div>
+
+</div>
