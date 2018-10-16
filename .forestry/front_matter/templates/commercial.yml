@@ -20,3 +20,5 @@ fields:
     description: The photo
     config:
       maxSize: '3'
+pages:
+- commercial.md
