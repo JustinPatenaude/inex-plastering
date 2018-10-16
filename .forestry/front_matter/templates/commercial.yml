@@ -1,0 +1,22 @@
+---
+label: Commercial
+hide_body: false
+is_partial: false
+fields:
+- type: field_group_list
+  name: gallery
+  label: Gallery
+  description: The image gallery
+  fields:
+  - type: text
+    label: Location
+    name: location
+    description: The location of the photo
+    config:
+      required: true
+  - type: file
+    name: photo
+    label: Photo
+    description: The photo
+    config:
+      maxSize: '3'
