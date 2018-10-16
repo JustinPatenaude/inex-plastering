@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: gallery
 title: Residential
 permalink: "/residential/"
 gallery:
@@ -13,6 +13,4 @@ gallery:
   photo: "/uploads/22untitled-5525-2.jpg"
 - location: Town Houses
   photo: "/uploads/23untitled-5529-2.jpg"
-
 ---
-This is the *Residential* page.

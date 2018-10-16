@@ -17,13 +17,19 @@ layout: default
         
         <div class="gallery">
           <div class="grid">
-            {% for item in page.gallery %}
-            <div class="col-4_sm-6_xs-12">
-              <a class="gallery__item margin-30" href="{{ item.image | absolute_url }}" title="{{ item.title }}">
-                <img class="gallery__image" src="{{ item.image | relative_url }}" title="{{ item.title }}" />
-              </a><!-- /gallery__item -->
-            </div>
-            {% endfor %}
+            {% if page.gallery.size > 0 %}
+              {% for item in page.gallery %}
+              <div class="col-4_sm-6_xs-12">
+                <a class="gallery__item margin-30" href="{{ item.photo | absolute_url }}" title="{{ item.location }}">
+                  <img class="gallery__image" src="{{ item.photo | relative_url }}" title="{{ item.location }}" />
+                </a><!-- /gallery__item -->
+              </div>
+              {% endfor %}
+            {% else %}
+              <div class="col-12 text-center">
+                <p class="italic">There are no photos in this gallery.</p>
+              </div>
+            {% endif %}
           </div>
         </div><!-- /gallery -->
 
@@ -31,4 +37,3 @@ layout: default
     </div>
   </div>
 </div>
-

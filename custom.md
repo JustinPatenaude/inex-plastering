@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: gallery
 title: Custom
 permalink: "/custom/"
 
 ---
-This is the *Custom* page.
