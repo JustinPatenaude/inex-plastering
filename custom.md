@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Custom
-permalink: /custom/
----
+permalink: "/custom/"
 
+---
 This is the *Custom* page.
