@@ -3,24 +3,11 @@ label: Gallery
 hide_body: false
 is_partial: false
 fields:
-- type: field_group_list
-  name: gallery
-  label: Gallery
-  description: The image gallery
-  fields:
-  - type: text
-    label: Location
-    name: location
-    description: The location of the photo
-    config:
-      required: false
-  - type: file
-    name: photo
-    label: Photo
-    description: The photo
-    config:
-      maxSize: '3'
+- type: image_gallery
+  name: photos
+  label: Photos
+  description: All gallery photos
 pages:
-- custom.md
 - residential.md
+- custom.md
 - commercial.md
