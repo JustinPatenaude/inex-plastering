@@ -21,6 +21,6 @@ fields:
     config:
       maxSize: '3'
 pages:
-- custom.md
-- residential.md
 - commercial.md
+- residential.md
+- custom.md
