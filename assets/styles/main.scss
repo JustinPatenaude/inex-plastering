@@ -25,6 +25,9 @@ $fontOne: 'Roboto', sans-serif;
 /*======================
   GLOBAL
 ======================*/
+* {
+  box-sizing: border-box;
+}
 html {
   background-color: $bgColor;
   background-image: url('{{ "/assets/images/background.png" | relative_url }}');
@@ -155,11 +158,17 @@ ul {
 .margin-30 {
   margin-bottom: 30px;
 }
+.img-link {
+  display: block;
+}
 .img-contained {
   width: 100%;
 }
 .img-small {
   max-width: 100px;
+}
+.img-medium {
+  max-width: 200px;
 }
 .bordered {
   border-radius: $borderRadius;
@@ -172,6 +181,11 @@ ul {
 }
 .italic {
   font-style: italic;
+}
+@media only screen and (max-width: 480px) {
+  .sm-margin-20 {
+    margin-bottom: 20px;
+  }
 }
 
 /*======================
@@ -235,6 +249,12 @@ ul {
     .sub-nav {
       display: block;
     }
+  }
+}
+.nav--stacked {
+  .nav__item {
+    display: block;
+    margin-left: 0;
   }
 }
 .sub-nav {
@@ -577,6 +597,9 @@ ul {
 ======================*/
 .footer {
   background-color: $bgColorDark;
+  .logo {
+    margin-top: 0;
+  }
 }
   .footer-top {
     padding: 40px 0;
@@ -615,11 +638,21 @@ ul {
     }
   }
   .footer-top {
-    padding: 10px 0;
+    padding: 30px 0 10px;
   }
   .copyright {
     padding: 10px 0;
     line-height: normal;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer {
+    .nav__item {
+      display: block;
+      float: left;
+      width: 100%;
+      margin: 0;
+    }
   }
 }
 /*======================
@@ -675,7 +708,7 @@ ul {
 }
 .input {
   display: block;
-  width: calc(100% - 20px);
+  width: 100%;
   padding: 0 10px;
   font-size: 16px;
   line-height: 38px;
@@ -688,7 +721,18 @@ ul {
   }
 }
 .textarea {
-  min-height: 150px;
+  display: block;
+  width: 100%;
   max-width: 100%;
+  min-height: 150px;
+  padding: 0 10px;
+  font-size: 16px;
+  line-height: 38px;
   background-color: rgba(255,255,255,0.5);
+  border: 2px solid transparent;
+  border-radius: $borderRadius;
+  &:focus, &:active {
+    border: 2px solid #fff;
+    outline: none;
+  }
 }
