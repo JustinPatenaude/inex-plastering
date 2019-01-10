@@ -4,9 +4,9 @@ hide_body: false
 is_partial: false
 fields:
 - type: field_group_list
-  name: gallery
-  label: Gallery
-  description: The image gallery
+  name: photo
+  label: Photo
+  description: The photo
   fields:
   - type: text
     label: Location
@@ -20,6 +20,8 @@ fields:
     description: The photo
     config:
       maxSize: '3'
+  config:
+    labelField: location
 pages:
 - commercial.md
 - residential.md
