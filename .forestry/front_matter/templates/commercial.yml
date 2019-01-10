@@ -3,25 +3,6 @@ label: Gallery
 hide_body: false
 is_partial: false
 fields:
-- type: field_group_list
-  name: photos
-  label: Photos
-  description: Photo
-  fields:
-  - type: text
-    label: Location
-    name: location
-    description: The location of the photo
-    config:
-      required: false
-  - type: file
-    name: photo
-    label: Photo
-    description: The photo
-    config:
-      maxSize: '3'
-  config:
-    labelField: location
 - type: image_gallery
   name: photos
   label: Photos
