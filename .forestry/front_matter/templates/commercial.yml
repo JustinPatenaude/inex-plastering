@@ -8,6 +8,6 @@ fields:
   label: Photos
   description: All gallery photos
 pages:
-- residential.md
 - custom.md
 - commercial.md
+- residential.md
