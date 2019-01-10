@@ -17,11 +17,11 @@ layout: default
         
         <div class="gallery">
           <div class="grid">
-            {% if page.gallery.size > 0 %}
-              {% for item in page.gallery %}
+            {% if page.photos.size > 0 %}
+              {% for photo in page.photos %}
               <div class="col-4_sm-6_xs-12">
-                <a class="gallery__item margin-30" href="{{ item.photo | absolute_url }}" title="{{ item.location }}">
-                  <img class="gallery__image" src="{{ item.photo | relative_url }}" title="{{ item.location }}" />
+                <a class="gallery__item margin-30" href="{{ photo }}" title="{{ page.title }}">
+                  <img class="gallery__image" src="{{ photo }}" title="{{ page.title }}" />
                 </a><!-- /gallery__item -->
               </div>
               {% endfor %}

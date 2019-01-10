@@ -2,10 +2,6 @@
 layout: gallery
 title: Commercial
 permalink: "/commercial/"
-gallery:
-- {}
-photo:
-- {}
 photos:
 - https://res.cloudinary.com/oakislanddesigns/image/upload/v1547091436/inex-plastering/commercial/commercial_00011.jpg
 - https://res.cloudinary.com/oakislanddesigns/image/upload/v1547091436/inex-plastering/commercial/commercial_00010.jpg
@@ -194,7 +190,5 @@ photos:
 - https://res.cloudinary.com/oakislanddesigns/image/upload/v1547091460/inex-plastering/commercial/commercial_00185.jpg
 - https://res.cloudinary.com/oakislanddesigns/image/upload/v1547091460/inex-plastering/commercial/commercial_00183.jpg
 - https://res.cloudinary.com/oakislanddesigns/image/upload/v1547091460/inex-plastering/commercial/commercial_00182.jpg
-- {}
-
 ---
 This is the *Commercial* page.
