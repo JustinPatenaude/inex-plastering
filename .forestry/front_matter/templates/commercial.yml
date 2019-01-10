@@ -4,9 +4,9 @@ hide_body: false
 is_partial: false
 fields:
 - type: field_group_list
-  name: photo
-  label: Photo
-  description: The photo
+  name: photos
+  label: Photos
+  description: Photo
   fields:
   - type: text
     label: Location
