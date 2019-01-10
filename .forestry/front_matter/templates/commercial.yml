@@ -22,6 +22,10 @@ fields:
       maxSize: '3'
   config:
     labelField: location
+- type: image_gallery
+  name: photos
+  label: Photos
+  description: All gallery photos
 pages:
 - commercial.md
 - residential.md
