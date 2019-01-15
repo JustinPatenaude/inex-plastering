@@ -20,3 +20,5 @@ The COR program is officially recognized and endorsed by:
 * SAFE Work Manitoba.
 
 In-Ex Plastering and Stucco Inc. has been working with Serenity Safety Consulting Inc. for the over four years. Serenity Safety Consulting Inc. is our primary resource for workplace health and safety compliance, training, and the annual COR audit. Serenity Safety Consulting Inc. is the first COR certified safety consultant in Manitoba and a leading in the workplace health and safety compliance.
+
+[Safety Certificate 2018](/assets/files/LoGS_Certificate_2018.pdf "Safety Certificate 2018")
