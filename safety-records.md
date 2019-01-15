@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: safety
 title: Safety Records
 permalink: "/safety-records/"
 
