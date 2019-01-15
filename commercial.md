@@ -189,6 +189,6 @@ photos:
 - https://res.cloudinary.com/oakislanddesigns/image/upload/v1547091460/inex-plastering/commercial/commercial_00186.jpg
 - https://res.cloudinary.com/oakislanddesigns/image/upload/v1547091460/inex-plastering/commercial/commercial_00185.jpg
 - https://res.cloudinary.com/oakislanddesigns/image/upload/v1547091460/inex-plastering/commercial/commercial_00183.jpg
-- https://res.cloudinary.com/oakislanddesigns/image/upload/v1547091460/inex-plastering/commercial/commercial_00182.jpg
+
 ---
 This is the *Commercial* page.
