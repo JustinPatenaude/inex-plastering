@@ -208,6 +208,16 @@ ul {
 //     }
 //   }
 // }
+.layout-home {
+  .content {
+    padding-top: 0;
+  }
+}
+.header {
+  background-image: url('{{ "/assets/images/sketch-bg-40.jpg" | relative_url }}');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .logo {
   display: block;
   margin-top: 25px;
@@ -681,6 +691,7 @@ ul {
 ======================*/
 .content {
   min-height: calc(100vh - 356px);
+  padding-top: 30px;
 }
 .page-title {
   margin-bottom: 20px;

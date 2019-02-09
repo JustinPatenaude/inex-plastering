@@ -1,7 +1,7 @@
 ---
 layout: safety
-title: Safety Records
-permalink: "/safety-records/"
+title: Commitment to Safety
+permalink: "/commitment-to-safety/"
 
 ---
 ## Our Commitment to Safety
