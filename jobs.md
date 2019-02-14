@@ -1,7 +1,7 @@
 ---
 layout: jobs
-title: Jobs
+title: Job Application
 permalink: /jobs/
 ---
 
-This is the *Jobs* page.
+*Required information

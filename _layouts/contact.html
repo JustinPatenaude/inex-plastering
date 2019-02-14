@@ -15,7 +15,7 @@ layout: default
       {{ content }}
     </div>
     <div class="col-10_md-12 margin-30">
-      <form class="form" action="https://mailthis.to/jpat92" method="POST">
+      <form class="form" action="https://formspree.io/dan@inexplastering.com" method="POST" encType="multipart/form-data">
         <div class="grid">
           <div class="col-6_sm-12 margin-20">
             <label class="label" for="name">Name</label>
@@ -23,14 +23,15 @@ layout: default
           </div>
           <div class="col-6_sm-12 margin-20">
             <label class="label" for="email">Email</label>
-            <input class="input" id="email" type="email" name="_replyto" placeholder="johndoe@gmail.com">
+            <input class="input" id="email" type="email" name="email" placeholder="johndoe@gmail.com">
           </div>
           <div class="col-12 margin-20">
             <label class="label" for="message">Message</label>
             <textarea class="textarea" id="message" name="message" placeholder="Enter your message here"></textarea>
           </div>
           <div class="col-12">
-            <input type="hidden" name="_honeypot" value="">
+            <input type="text" name="_gotcha" style="display:none" />
+            <input type="hidden" name="_subject" value="Contact form submission from inexplastering.com">
             <input class="btn" type="submit" value="Send"> 
           </div>
         </div>

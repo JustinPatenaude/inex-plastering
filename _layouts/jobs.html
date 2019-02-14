@@ -15,7 +15,7 @@ layout: default
       {{ content }}
     </div>
     <div class="col-10_md-12 margin-30">
-      <form action="https://mailthis.to/jpat92" method="POST" encType="multipart/form-data">
+      <form action="https://formspree.io/dan@inexplastering.com" method="POST" encType="multipart/form-data">
 
         <div class="grid">
           <div class="col-8">
@@ -24,48 +24,48 @@ layout: default
         </div>
         <div class="grid margin-20">
           <div class="col-4">
-            <label class="label" for="inex_first-name">First name</label>
-            <input class="input" type="text" name="inex_first-name" placeholder="John">
+            <label class="label" for="first-name">First name *</label>
+            <input class="input" type="text" name="first-name" id="first-name" placeholder="John">
           </div>
           <div class="col-4">
-            <label class="label" for="inex_last-name">First name</label>
-            <input class="input" type="text" name="inex_last-name" placeholder="Smith">
-          </div>
-        </div>
-        <div class="grid margin-20">
-          <div class="col-4">
-            <label class="label" for="inex_email">Email address</label>
-            <input class="input" type="text" name="inex_email" placeholder="john.smith@example.com">
-          </div>
-          <div class="col-4">
-            <label class="label" for="inex_phone">Phone number</label>
-            <input class="input" type="text" name="inex_phone" placeholder="204-999-9999">
+            <label class="label" for="last-name">Last name *</label>
+            <input class="input" type="text" name="last-name" id="last-name" placeholder="Smith">
           </div>
         </div>
         <div class="grid margin-20">
           <div class="col-4">
-            <label class="label" for="inex_address-one">Address 1</label>
-            <input class="input" type="text" name="inex_address-one" placeholder="123 Street name">
+            <label class="label" for="email">Email address *</label>
+            <input class="input" type="text" name="email" id="email" placeholder="john.smith@example.com">
           </div>
           <div class="col-4">
-            <label class="label" for="inex_address-two">Address 2</label>
-            <input class="input" type="text" name="inex_address-two" placeholder="Unit 001">
-          </div>
-        </div>
-        <div class="grid margin-20">
-          <div class="col-4">
-            <label class="label" for="inex_city">City</label>
-            <input class="input" type="text" name="inex_city" placeholder="Winnipeg">
-          </div>
-          <div class="col-4">
-            <label class="label" for="inex_province">Province</label>
-            <input class="input" type="text" name="inex_province" placeholder="Manitoba">
+            <label class="label" for="phone">Phone number *</label>
+            <input class="input" type="text" name="phone" id="phone" placeholder="204-999-9999">
           </div>
         </div>
         <div class="grid margin-20">
           <div class="col-4">
-            <label class="label" for="inex_postal-code">Postal Code</label>
-            <input class="input" type="text" name="inex_postal-code" placeholder="A1B 2C3">
+            <label class="label" for="address-one">Address 1 *</label>
+            <input class="input" type="text" name="address-one" id="address-one" placeholder="123 Street name">
+          </div>
+          <div class="col-4">
+            <label class="label" for="address-two">Address 2</label>
+            <input class="input" type="text" name="address-two" id="address-two" placeholder="Unit 001">
+          </div>
+        </div>
+        <div class="grid margin-20">
+          <div class="col-4">
+            <label class="label" for="city">City</label>
+            <input class="input" type="text" name="city" id="city" placeholder="Winnipeg">
+          </div>
+          <div class="col-4">
+            <label class="label" for="province">Province</label>
+            <input class="input" type="text" name="province" id="province" placeholder="Manitoba">
+          </div>
+        </div>
+        <div class="grid margin-20">
+          <div class="col-4">
+            <label class="label" for="postal-code">Postal Code *</label>
+            <input class="input" type="text" name="postal-code" id="postal-code" placeholder="A1B 2C3">
           </div>
         </div>
         <div class="grid margin-20">
@@ -76,12 +76,12 @@ layout: default
         </div>
         <div class="grid margin-20">
           <div class="col-4">
-            <label class="label" for="inex_high-school">High School</label>
-            <textarea class="input textarea" name="inex_high-school"></textarea>
+            <label class="label" for="high-school">High School</label>
+            <textarea class="input textarea" name="high-school" id="high-school"></textarea>
           </div>
           <div class="col-4">
-            <label class="label" for="inex_post-secondary">Post-Secondary</label>
-            <textarea class="input textarea" name="inex_post-secondary"></textarea>
+            <label class="label" for="post-secondary">Post-Secondary</label>
+            <textarea class="input textarea" name="post-secondary" id="post-secondary"></textarea>
           </div>
         </div>
         <div class="grid margin-20">
@@ -92,12 +92,12 @@ layout: default
         </div>
         <div class="grid margin-20">
           <div class="col-4">
-            <label class="label" for="inex_company-one">Company 1</label>
-            <textarea class="input textarea" name="inex_company-one"></textarea>
+            <label class="label" for="company-one">Company 1</label>
+            <textarea class="input textarea" name="company-one" id="company-one"></textarea>
           </div>
           <div class="col-4">
-            <label class="label" for="inex_company-two">Company 2</label>
-            <textarea class="input textarea" name="inex_company-two"></textarea>
+            <label class="label" for="company-two">Company 2</label>
+            <textarea class="input textarea" name="company-two" id="company-two"></textarea>
           </div>
         </div>
         <div class="grid margin-20">
@@ -108,8 +108,8 @@ layout: default
         </div>
         <div class="grid margin-20">
           <div class="col-4">
-            <label class="label" for="inex_other">Other</label>
-            <textarea class="input textarea" name="inex_other"></textarea>
+            <label class="label" for="other">Other</label>
+            <textarea class="input textarea" name="other" id="other"></textarea>
           </div>
         </div>
         <div class="grid">
@@ -119,27 +119,27 @@ layout: default
         </div>
         <div class="grid margin-20">
           <div class="col-4">
-            <label class="label" for="inex_reference-name-one">Name</label>
-            <input class="input" type="text" name="inex_reference-name-one" placeholder="John Smith">
+            <label class="label" for="reference-name-one">Name</label>
+            <input class="input" type="text" name="reference-name-one" id="reference-name-one" placeholder="John Smith">
           </div>
           <div class="col-4">
-            <label class="label" for="inex_reference-phone-one">Phone Number</label>
-            <input class="input" type="text" name="inex_reference-phone-one" placeholder="204-999-9999">
+            <label class="label" for="reference-phone-one">Phone Number</label>
+            <input class="input" type="text" name="reference-phone-one" id="reference-phone-one" placeholder="204-999-9999">
           </div>
         </div>
         <div class="grid margin-20">
           <div class="col-4">
-            <label class="label" for="inex_reference-name-two">Name</label>
-            <input class="input" type="text" name="inex_reference-name-two" placeholder="John Smith">
+            <label class="label" for="reference-name-two">Name</label>
+            <input class="input" type="text" name="reference-name-two" id="reference-name-two" placeholder="John Smith">
           </div>
           <div class="col-4">
-            <label class="label" for="inex_reference-phone-two">Phone Number</label>
-            <input class="input" type="text" name="inex_reference-phone-two" placeholder="204-999-9999">
+            <label class="label" for="reference-phone-two">Phone Number</label>
+            <input class="input" type="text" name="reference-phone-two" id="reference-phone-two" placeholder="204-999-9999">
           </div>
         </div>
         <div class="grid margin-20">
           <div class="col-6">
-            <input type="hidden" name="_honeypot" value="">
+            <input type="text" name="_gotcha" style="display:none" />
             <input type="hidden" name="_subject" value="Jobs submission from inexplastering.com">
             <input class="btn" type="submit" value="Send">
           </div>
