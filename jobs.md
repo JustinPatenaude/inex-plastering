@@ -1,7 +1,7 @@
 ---
 layout: jobs
 title: Job Application
-permalink: /jobs/
----
+permalink: "/jobs/"
 
-*Required information
+---
+\*Required informatio
