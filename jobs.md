@@ -4,4 +4,4 @@ title: Job Application
 permalink: "/jobs/"
 
 ---
-\*Required informatio
+\*Required information
