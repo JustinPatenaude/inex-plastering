@@ -14,6 +14,25 @@ gallery:
 - location: Town Houses
   photo: "/uploads/23untitled-5529-2.jpg"
 photos:
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571429005/inex-plastering/C_Cric_Studios_304_of_308_aqu2db.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428994/inex-plastering/C_Cric_Studios_294_of_308_rjwakw.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428957/inex-plastering/C_Cric_Studios_288_of_308_tr7xhl.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428996/inex-plastering/C_Cric_Studios_286_of_308_mdf2af.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428971/inex-plastering/C_Cric_Studios_283_of_308_ten4vt.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571429005/inex-plastering/C_Cric_Studios_280_of_308_jqkwdr.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571429003/inex-plastering/C_Cric_Studios_276_of_308_dsffkk.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571429005/inex-plastering/C_Cric_Studios_158_of_308_sihun9.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571429001/inex-plastering/C_Cric_Studios_147_of_308_nhbm7q.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428989/inex-plastering/C_Cric_Studios_142_of_308_pa8wgb.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428971/inex-plastering/C_Cric_Studios_139_of_308_dy8vb0.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428924/inex-plastering/C_Cric_Studios_136_of_308_kxzc4m.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428962/inex-plastering/C_Cric_Studios_134_of_308_mefl6f.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571429006/inex-plastering/C_Cric_Studios_131_of_308_atv5f1.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428993/inex-plastering/C_Cric_Studios_127_of_308_svfm1y.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571429008/inex-plastering/C_Cric_Studios_114_of_308_pz6uci.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428989/inex-plastering/C_Cric_Studios_108_of_308_cptdfj.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428980/inex-plastering/C_Cric_Studios_105_of_308_zem50s.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428991/inex-plastering/C_Cric_Studios_100_of_308_vkun04.jpg
 - https://res.cloudinary.com/oakislanddesigns/image/upload/v1547091514/inex-plastering/residential/residential_00004.jpg
 - https://res.cloudinary.com/oakislanddesigns/image/upload/v1547091514/inex-plastering/residential/residential_00003.jpg
 - https://res.cloudinary.com/oakislanddesigns/image/upload/v1547091514/inex-plastering/residential/residential_00002.jpg

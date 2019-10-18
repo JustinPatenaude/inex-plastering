@@ -1,13 +1,12 @@
 ---
 label: Gallery
 hide_body: false
-is_partial: false
 fields:
 - type: image_gallery
   name: photos
   label: Photos
   description: All gallery photos
 pages:
-- custom.md
-- commercial.md
 - residential.md
+- commercial.md
+- custom.md
