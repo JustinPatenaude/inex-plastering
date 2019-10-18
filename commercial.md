@@ -3,6 +3,21 @@ layout: gallery
 title: Commercial
 permalink: "/commercial/"
 photos:
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428898/inex-plastering/C_Cric_Studios_4_of_308_ocujww.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428978/inex-plastering/C_Cric_Studios_11_of_308_vl0f6i.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428975/inex-plastering/C_Cric_Studios_14_of_308_ff5spb.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428970/inex-plastering/C_Cric_Studios_17_of_308_qsnj9x.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571429002/inex-plastering/C_Cric_Studios_221_of_308_pr7ktz.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571429008/inex-plastering/C_Cric_Studios_264_of_308_dgq8wj.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428986/inex-plastering/C_Cric_Studios_236_of_308_zv04w4.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428996/inex-plastering/C_Cric_Studios_229_of_308_jplxn6.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571429001/inex-plastering/C_Cric_Studios_219_of_308_g3cyki.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428995/inex-plastering/C_Cric_Studios_214_of_308_a2ae6b.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428942/inex-plastering/C_Cric_Studios_186_of_308_nmj2lo.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428948/inex-plastering/C_Cric_Studios_184_of_308_e8lm5j.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428948/inex-plastering/C_Cric_Studios_183_of_308_r5q6gl.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428941/inex-plastering/C_Cric_Studios_174_of_308_dyyr7g.jpg
+- https://res.cloudinary.com/oakislanddesigns/image/upload/v1571428942/inex-plastering/C_Cric_Studios_171_of_308_o2oo0o.jpg
 - https://res.cloudinary.com/oakislanddesigns/image/upload/v1547091436/inex-plastering/commercial/commercial_00011.jpg
 - https://res.cloudinary.com/oakislanddesigns/image/upload/v1547091436/inex-plastering/commercial/commercial_00010.jpg
 - https://res.cloudinary.com/oakislanddesigns/image/upload/v1547091436/inex-plastering/commercial/commercial_00003.jpg
