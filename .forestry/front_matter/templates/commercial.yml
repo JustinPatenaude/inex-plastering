@@ -8,5 +8,5 @@ fields:
   description: All gallery photos
 pages:
 - commercial.md
-- residential.md
 - custom.md
+- residential.md
